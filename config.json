@@ -5,10 +5,35 @@
         "transformGroup": "scss",
         "prefix": "harmony",
         "buildPath": "build/scss/",
-        "files": [{
-          "destination": "_variables.scss",
-          "format": "scss/variables"
-        }]
+        "files": [
+            {
+                "destination": "_color.scss",
+                "format": "scss/variables",
+                "filter": {
+                    "type": "color"
+                },
+                "options": {
+                    "outputReferences": true
+                }
+            },
+            {
+                "destination": "_border.scss",
+                "format": "scss/variables",
+                "filter": {
+                    "type": "borderRadius"
+                },
+                "options": {
+                    "outputReferences": true
+                }
+            },
+            {
+                "destination": "_variable.scss",
+                "format": "scss/variables",
+                "options": {
+                    "outputReferences": true
+                }
+            }
+        ]
       }
     }
   }
