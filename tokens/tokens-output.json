@@ -35,6 +35,28 @@
         "value": "32px",
         "type": "borderRadius"
       }
+    },
+    "spacing": {
+      "sm": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "32px",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "64px",
+        "type": "spacing"
+      },
+      "2xl": {
+        "value": "96px",
+        "type": "spacing"
+      }
     }
   },
   "Default": {
@@ -5420,5 +5442,23 @@
   "icons": {
     "value": "sm",
     "type": "icon"
+  },
+  "spacing": {
+    "sm": {
+      "value": "8px",
+      "type": "spacing"
+    },
+    "md": {
+      "value": "16px",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "32px",
+      "type": "spacing"
+    },
+    "xl": {
+      "value": "64px",
+      "type": "spacing"
+    }
   }
 }
